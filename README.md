@@ -135,6 +135,3 @@ On Windows, write `.env` in an editor. PowerShell 5.1's `Out-File` adds a byte-o
 - Customer text reaches both the LLM and the guard, so prompt injection needs its own test cases.
 - `TODAY` is fixed in `store.py` to keep the demo deterministic.
 
-## Credits
-
-Based on the guide "Build a Jev-Routed GenAI Support Desk in 60 Minutes" by [datasciencebrain](https://www.instagram.com/datasciencebrain/), verified by its author on 2026-09-24 with `typesafe-sdk 0.7.1`, `groq 1.7.0` and Jev 1.13. SDK method names come from that guide; check them against the official TypeSafe docs before relying on them.
